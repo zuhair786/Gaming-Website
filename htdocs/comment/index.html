@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>InfoGame</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="Stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="assets/images/logo.png" alt="InfoGame Logo" /></a>
+                </div>
+                <a href="http://localhost:9999/login-register-jsp/index.jsp" id="login-register-button"><!--add inside a tag onclick="openForm()"-->Login / Register</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero-image">
+                <div class="hero-marketing-text">
+                    <h1>The Best <span>Games</span> Out There</h1>
+                    <h5>We are in smart world. So, play smart games waiting front of you. </h5>
+                    <button id="readmore" onclick="showDet()">Read More</button>
+					<p id="details" style="display:none;">InfoGame is a website to make games available to 
+					<br> gamers at very close.It is also user friendly for them
+					<br> to get their games easily.To access different games, 
+					<br> users must create an account and explore your game ocean.
+					<br> @CopyRights Get Game Links from different Website.
+					<br> Games are available for all age groups and everywhere
+					<br> around the globe.</p>
+					<button id="showless" onclick="showLess()" style="display:none;">Show Less</button>
+                </div>
+            </section>
+
+            <section id="latest-news">
+                <div class="flex">
+                    <h5>Latest News</h5>
+                    <div id="latest-news-container">
+						<div class="vwrap">
+							<div class="vmove">
+								<div class="vitem">Page has been created successfully.</div>
+								<div class="vitem">On August 30,2021.</div>
+								<div class="vitem">By Mohamed Zuhair</div>
+								<div class="vitem">Updates will come to you soon!!!</div>
+						</div></div>
+                </div>
+            </section>
+
+            <section id="game-types-boxes">
+                <div class="flex">
+                    <div class="box new">
+                        <div class="shade"></div>
+                        <span class="badge new">New</span>
+                        <div class="contents">
+                            <h4>Werewolf: The Apocalypse – Earthblood</h4>
+                            <p>The Apocalypse, and is part of the larger World of Darkness series.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=werewolf" class="comments">Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box strategy">
+                        <div class="shade"></div>
+                        <span class="badge strategy">New</span>
+                        <div class="contents">
+                            <h4>Age of Empires III</h4>
+                            <p>The game portrays the European colonization of the Americas, between approximately 1492 and 1876 AD.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=ageofempire" class="comments">Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box rpg">
+                        <div class="shade"></div>
+                        <span class="badge rpg">New</span>
+                        <div class="contents">
+                            <h4>The Witcher 3: Wild Hunt</h4>
+                            <p>The game takes place in a fictional fantasy world based on Slavonic mythology.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=witcher3" class="comments">Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box racing">
+                        <div class="shade"></div>
+                        <span class="badge racing">New</span>
+                        <div class="contents">
+                            <h4>Forza Horizon 4</h4>
+                            <p>Explore beautiful scenery, collect over 450 cars and become a Horizon Superstar.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=forzahorizon4" class="comments">Comments</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recent-games">
+                <h1>Recent Games</h1>
+                <div class="flex">
+                    <div class="box">
+                        <span class="badge new">New</span>
+                        <img style="height:210px" src="assets/images/farcry6.jpg" />
+                        <div class="box-lower-section">
+                            <h4>Far Cry 6</h4>
+                            <p>Embrace the gritty experience of an improvised modern-day guerrilla and take down a Dictator and his son to free Yara.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=farcry6" class="comments">Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="badge racing">Racing</span>
+                        <img src="assets/images/nfshotpursuit.jpg" />
+                        <div class="box-lower-section">
+                            <h4>Need for Speed™ Hot Pursuit Remastered</h4>
+                            <p>Unleash a savage sense of speed both as an outlaw and a cop in the world's hottest high-performance cars.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=nfsHot" class="comments">Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="badge adventure">Adventure</span>
+                        <img style="height:210px" src="assets/images/littlenightmare2.jpg" />
+                        <div class="box-lower-section">
+                            <h4>Little Nightmares II</h4>
+                            <p>Little Nightmares II is a suspense adventure game in which you play as Mono.</p>
+                            <a href="http://localhost/comment/commentfiles/specific.php?topic=littlenightmare2" class="comments">Comments</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tournaments">
+                <div class="flex">
+                    <span class="badge tournaments">Tournaments</span>
+                    <div class="box">
+                        <span class="badge premium-tournament">Premium Tournament</span>
+                        <div class="tournaments-image">
+                            <img src="assets/images/pes2021.jpg" />
+                        </div>
+                        <div class="tournaments-content">
+                            <h3>pes 2021</h3>
+                            <div><label>Tournament Begins:</label> <strong>March 20, 2021</strong></div>
+                            <div><label>Tournament Ends:</label> <strong>April 20, 2021</strong></div>
+                            <div><label>Participants:</label> <strong>24</strong></div>
+                            <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                            <div><label class="prizes">Prizes:</label> <label>1st place 50000Rs., 2nd place: 30000Rs.</label></div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="badge premium-tournament">Premium Tournament</span>
+                        <div class="tournaments-image">
+                            <img src="assets/images/fornite.jpg" />
+                        </div>
+                        <div class="tournaments-content">
+                            <h3>Fortnite</h3>
+                            <div><label>Tournament Begins:</label> <strong>March 10, 2021</strong></div>
+                            <div><label>Tournament Ends:</label> <strong>April 20, 2021</strong></div>
+                            <div><label>Participants:</label> <strong>50</strong></div>
+                            <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                            <div><label class="prizes">Prizes:</label> <label>1st place 50000Rs., 2nd place: 20000Rs.</label></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recent-reviews">
+                <h1>Recent Reviews</h1>
+                <div class="flex">
+                    <div class="box">
+                        <span class="rating-badge gold">9.3</span>
+                        <div class="recent-reviews-image">
+                            <img style="width:290px;height:360px;object-fit: cover;" src="assets/images/valhalla.jpg" />
+                        </div>
+                        <div>
+                            <h4>Assasin's Creed Valhalla</h4>
+                            <p>Assassin's Creed Valhalla is an open-world action-adventure game structured around several main story arcs and numerous optional side-missions, called "World Events".</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="rating-badge purple">9.5</span>
+                        <div class="recent-reviews-image">
+                            <img style="width:290px;height:360px"src="assets/images/doom.jpg" />
+                        </div>
+                        <div>
+                            <h4>Doom</h4>
+                            <p>Doom is a first-person shooter presented with early 3D graphics. The player controls an unnamed space marine—later termed the Doomguy—through a series of levels set in military bases on the moons of Mars and in Hell.</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="rating-badge green">9.1</span>
+                        <div class="recent-reviews-image">
+                            <img src="assets/images/overwatch.jpg" />
+                        </div>
+                        <div>
+                            <h4>Overwatch</h4>
+                            <p>It's been 30 years since humanity fought against artificial intelligence in the global war known as the "Omnic Crisis."</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span class="rating-badge violet">9.7</span>
+                        <div class="recent-reviews-image">
+                            <img src="assets/images/gta5.jpg" />
+                        </div>
+                        <div>
+                            <h4>GTA 5</h4>
+                            <p>A dazzling but monstrous parody of modern life.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="posts-comments">
+                <div class="flex">
+                    <div class="game-warrior">
+                        <img src="assets/images/footer_logo.png" />
+                        <p>Latest and Biggest updates are present to you ontime and anywhere by us.</p>
+                        <img class="footer-graphic" src="assets/images/sword_lady_footer.png" />
+                    </div>
+
+                    <div class="posts-comments-box">
+                        <h3>Latest Posts</h3>
+                        <div class="post-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/latest_posts_1.jpg" />
+                            <div>
+                                <h5>January 21, 2021</h5>
+                                <p>The World most popular game ever!</p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <img src="assets/images/fifa21.jpg" />
+                            <div>
+                                <h5>March 28, 2021</h5>
+                                <p>New modes are available now!! </p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <img src="assets/images/milesmorales.jpg" />
+                            <div>
+                                <h5>June 21, 2019</h5>
+                                <p>Spider-Man: Miles Morales update 1.08 adds some extra polish.</p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="posts-comments-box">
+                        <h3>Top Comments</h3>
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_1.jpg" />
+                            <div>
+                                <p><span class="author">Phil</span> <span>on</span> Great work.They done this very well.</p>
+                                <h5>February 5,2021</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_2.jpg" />
+                            <div>
+                                <p><span class="author">Alberto rey</span> <span>on</span> Good.Some changes need to Do.</p>
+                                <h5>January 29,2021</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_3.jpg" />
+                            <div>
+                                <p><span class="author">Joseph oxford</span> <span>on</span> Amazing news are delivered very fastly.</p>
+                                <h5>January 29,2021</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_4.jpg" />
+                            <div>
+                                <p><span class="author">Breyan</span> <span>on</span> Good to use it.Also provide info about some unreachable games.</p>
+                                <h5>January 28,2021</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex">
+                <small>Copyright &copy; 2021 All rights reserved | This template is made with <span class="footer-heart">&#9829;</span> by <a href="https://colorlib.com" target="_blank">by Playboy Kishore</a>.</small>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                let navMenu = document.getElementById('nav-menu-container');
+                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+            });
+			function showDet(){
+					document.getElementById("readmore").style.display='none';
+					document.getElementById("details").style.display='block';
+					document.getElementById("showless").style.display='block';
+			}
+			function showLess(){
+					document.getElementById("readmore").style.display='block';
+					document.getElementById("details").style.display='none';
+					document.getElementById("showless").style.display='none';
+					}
+        </script>
+    </body>
+</html>
